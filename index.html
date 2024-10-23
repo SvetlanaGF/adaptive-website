@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>адаптивный сайт</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="icon" href="images/sk black white.ico" type="image/x-icon">
+    <link rel="icon" href="images/sk_black_white.ico" type="image/x-icon">
     <style>
     @font-face {
         font-family: 'OldStandardTT-Regular';
@@ -36,12 +36,13 @@
     </main>
     
     <section class="content__image">
+        <h2>Этот кот меняет рамки в зависимости от размера экрана</h2>
         <img src="images/responsive_cat.jpg" alt="Responsive Cat"
         class="responsive_cat">
     </section>
     <!-- Изображение для демонстрации srcset -->
     <section class="content__srcset">
-        <h1>Адаптивное изображение кота с использованием srcset</h1>
+        <h2>Адаптивное изображение кота с использованием srcset</h2>
         <img src="images/image_small.jpg" 
              srcset="images/400_cat.jpg 480w, 
                      images/800_cat.jpg 800w, 
@@ -53,20 +54,15 @@
              class="srcset_cat">
     </section>
 
-
-<!-- Блок для демонстрации переполнения -->
-<h1>Изображение ниже выбрано размером больше, чем место, которое ему могли выделить на этой странице</h1>
-<div class="centered-box">
-    <img src="images/big-cat.jpg" alt="Слишком большой кот для этого блока" style="width: 400px; height: auto;">
-</div>
-
+    <!-- Блок для демонстрации переполнения -->
+    <h2>Изображение ниже выбрано размером больше, чем место, которое ему могли выделить на этой странице</h2>
+    <div class="centered-box">
+        <img src="images/big-cat.jpg" alt="Слишком большой кот для этого блока" style="width: 400px; height: auto;">
+    </div>
 
     <footer class="footer">
             <p>© 2024 адаптивный сайт</p>
     </footer>
-            
-
-  
 
 </body>
 </html>

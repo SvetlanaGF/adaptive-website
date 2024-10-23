@@ -42,7 +42,7 @@ body {
 .content__image{
   text-align: center;
 }
-h1 {
+h1, h2 {
   font-size: 1.5em;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -99,7 +99,7 @@ p {
     background-color: #f4f4f4;
     padding: 20px;
   }
-  h1 {
+  h1, h2 {
     padding-top: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -144,7 +144,7 @@ p {
       height: auto;
       margin-bottom: 30px;
     }
-    .content__srcset h1 {
+    .content__srcset h2 {
       margin-top: 20px;
       margin-bottom: 20px;
     }
