@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>адаптивный сайт</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/sk black white.ico" type="image/x-icon">
+    <style>
+    @font-face {
+        font-family: 'OldStandardTT-Regular';
+        src: url('fonts/OldStandardTT-Regular.ttf') format('truetype');
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="header__logo">Logo</div>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item"><a class="header__link"
+                href="#">Home</a></li>
+                <li class="header__item"><a class="header__link"
+                href="#">About</a></li>
+                <li class="header__item"><a class="header__link"
+                href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="content">
+        <section class="content__intro">
+            <h1>Добро пожаловать на адаптивный сайт!</h1>
+            <p>Это адаптивная страница с адаптивными изображениями, пользовательскими шрифтами и значком.</p>
+        </section>
+    </main>
+    
+    <section class="content__image">
+        <img src="images/responsive_cat.jpg" alt="Responsive Cat"
+        class="responsive_cat">
+    </section>
+    <!-- Изображение для демонстрации srcset -->
+    <section class="content__srcset">
+        <h1>Адаптивное изображение кота с использованием srcset</h1>
+        <img src="images/image_small.jpg" 
+             srcset="images/400_cat.jpg 480w, 
+                     images/800_cat.jpg 800w, 
+                     images/1200_cat.jpg 1200w" 
+             sizes="(max-width: 600px) 480px, 
+                    (max-width: 900px) 800px, 
+                    1200px" 
+             alt="Пример изображения"
+             class="srcset_cat">
+    </section>
+
+
+<!-- Блок для демонстрации переполнения -->
+<h1>Изображение ниже выбрано размером больше, чем место, которое ему могли выделить на этой странице</h1>
+<div class="centered-box">
+    <img src="images/big-cat.jpg" alt="Слишком большой кот для этого блока" style="width: 400px; height: auto;">
+</div>
+
+
+    <footer class="footer">
+            <p>© 2024 адаптивный сайт</p>
+    </footer>
+            
+
+  
+
+</body>
+</html>
